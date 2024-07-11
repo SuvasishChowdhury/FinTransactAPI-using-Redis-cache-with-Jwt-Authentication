@@ -60,7 +60,7 @@ namespace FinTransactAPI.Controllers
                 productCache = await _context.Products.FindAsync(id);
             }
 
-            _logger.LogInformation("Someone try to get information of " + productCache.ProductName);
+            _logger.LogInformation("Someone try to get information of " + productCache.ProductName + "(" + productCache.ProductDescription + ");");
 
 
             return productCache;
