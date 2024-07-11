@@ -13,11 +13,13 @@ namespace FinTransactAPI.Controllers
     {
         private readonly DbContextClass _context;
         private readonly ICacheService _cacheService;
+        private readonly ILogger _logger;
 
-        public ProductController(DbContextClass context, ICacheService cacheService)
+        public ProductController(DbContextClass context, ICacheService cacheService, ILogger<ProductController> logger)
         {
             _context = context;
             _cacheService = cacheService;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -37,6 +39,7 @@ namespace FinTransactAPI.Controllers
                     _cacheService.SetData("Product", productCache, expirationTime);
                 }
             }
+            _logger.LogInformation("Someone one to fetch all data!");
             return productCache;
         }
 
@@ -57,6 +60,9 @@ namespace FinTransactAPI.Controllers
                 productCache = await _context.Products.FindAsync(id);
             }
 
+            _logger.LogInformation("Someone try to get information of " + productCache.ProductName);
+
+
             return productCache;
         }
 
@@ -65,11 +71,15 @@ namespace FinTransactAPI.Controllers
         [Route("CreateProduct")]
         public async Task<ActionResult<Product>> POST(Product product)
         {
+
             _context.Products.Add(product);
 
             await _context.SaveChangesAsync();
 
             _cacheService.RemoveData("Product");
+
+            _logger.LogInformation("Someone just create a Product!");
+
 
             return CreatedAtAction(nameof(Get), new { id = product.ProductId }, product);
         }
@@ -78,7 +88,8 @@ namespace FinTransactAPI.Controllers
         [Route("DeleteProduct")]
         public async Task<ActionResult<IEnumerable<Product>>> Delete(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            var productcache = _cacheService.GetData<List<Product>>("Product");
+            var product = productcache.Find(x=>x.ProductId == id);
             if (product == null)
             {
                 return NotFound();
@@ -88,6 +99,9 @@ namespace FinTransactAPI.Controllers
             _cacheService.RemoveData("Product");
 
             await _context.SaveChangesAsync();
+
+            _logger.LogInformation("Someone try to get information of " + product.ProductName);
+
 
             return await _context.Products.ToListAsync();
         }

@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Migrations\\20240711081715_int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinTransactAPI\\Migrations\\20240711081715_int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\cache\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\cache\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\data\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\data\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\cache\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\cache\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|e:\\interview project\\fintransactapi-using-redis-cache-with-jwt-authentication\\fintransactapi\\fintransactapi\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBC1CB7D-CFAC-47C6-AE64-622327F4D7C8}|FinTransactAPI\\FinTransactAPI.csproj|solutionrelative:fintransactapi\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,57 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240711081715_int.cs",
-              "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Migrations\\20240711081715_int.cs",
-              "RelativeDocumentMoniker": "FinTransactAPI\\Migrations\\20240711081715_int.cs",
-              "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Migrations\\20240711081715_int.cs",
-              "RelativeToolTip": "FinTransactAPI\\Migrations\\20240711081715_int.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:17:16.229Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FinTransactAPI\\appsettings.json",
+              "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\appsettings.json",
+              "RelativeToolTip": "FinTransactAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-11T10:46:12.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DbContextClass.cs",
-              "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Data\\DbContextClass.cs",
-              "RelativeDocumentMoniker": "FinTransactAPI\\Data\\DbContextClass.cs",
-              "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Data\\DbContextClass.cs",
-              "RelativeToolTip": "FinTransactAPI\\Data\\DbContextClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:49:19.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FinTransactAPI\\Controllers\\ProductController.cs",
               "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "FinTransactAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBAAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T09:45:45.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfigurationManager.cs",
-              "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\ConfigurationManager.cs",
-              "RelativeDocumentMoniker": "FinTransactAPI\\ConfigurationManager.cs",
-              "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\ConfigurationManager.cs",
-              "RelativeToolTip": "FinTransactAPI\\ConfigurationManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:44:28.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "FinTransactAPI\\Controllers\\AuthenticationController.cs",
@@ -118,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ConnectionHelper.cs",
               "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Cache\\ConnectionHelper.cs",
               "RelativeDocumentMoniker": "FinTransactAPI\\Cache\\ConnectionHelper.cs",
@@ -132,32 +95,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "FinTransactAPI\\appsettings.json",
-              "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\appsettings.json",
-              "RelativeToolTip": "FinTransactAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-10T09:56:48.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Program.cs",
               "RelativeDocumentMoniker": "FinTransactAPI\\Program.cs",
               "ToolTip": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Program.cs",
               "RelativeToolTip": "FinTransactAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T09:53:32.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Model\\Login.cs",
               "RelativeDocumentMoniker": "FinTransactAPI\\Model\\Login.cs",
@@ -165,11 +115,12 @@
               "RelativeToolTip": "FinTransactAPI\\Model\\Login.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:56:11.504Z"
+              "WhenOpened": "2024-07-10T09:56:11.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "CacheService.cs",
               "DocumentMoniker": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\Cache\\CacheService.cs",
               "RelativeDocumentMoniker": "FinTransactAPI\\Cache\\CacheService.cs",
@@ -177,7 +128,8 @@
               "RelativeToolTip": "FinTransactAPI\\Cache\\CacheService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:51:14.799Z"
+              "WhenOpened": "2024-07-10T09:51:14.799Z",
+              "EditorCaption": ""
             }
           ]
         }
