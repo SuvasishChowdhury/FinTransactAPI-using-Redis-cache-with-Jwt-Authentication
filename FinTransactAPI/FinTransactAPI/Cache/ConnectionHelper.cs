@@ -1,5 +1,4 @@
 ﻿using StackExchange.Redis;
-
 namespace FinTransactAPI.Cache
 {
     public class ConnectionHelper
@@ -9,6 +8,7 @@ namespace FinTransactAPI.Cache
             ConnectionHelper.lazyConnection = new Lazy<ConnectionMultiplexer>(() =>
             {
                 return ConnectionMultiplexer.Connect(ConfigurationManager.AppSetting["RedisURL"]);
+                //return ConnectionMultiplexer.Connect("localhost");
             });
         }
 
