@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinTransactAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f4839b25177e1aa174d5a9b0048a2b76821bdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a31c9a2652a71bdd8a96bca27ef5ed9eb510c0e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinTransactAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinTransactAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using FinTransactAPI.Cache;
 using FinTransactAPI.Data;
 using FinTransactAPI.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace FinTransactAPI.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Authorize]
     public class ProductController : ControllerBase
     {
         private readonly DbContextClass _context;
@@ -28,6 +29,8 @@ namespace FinTransactAPI.Controllers
         {
             var productCache = new List<Product>();
 
+            _logger.LogInformation("Someone try to fetch all data!");
+
             productCache = _cacheService.GetData<List<Product>>("Product");
             if (productCache == null)
             {
@@ -39,7 +42,6 @@ namespace FinTransactAPI.Controllers
                     _cacheService.SetData("Product", productCache, expirationTime);
                 }
             }
-            _logger.LogInformation("Someone one to fetch all data!");
             return productCache;
         }
 
@@ -59,9 +61,7 @@ namespace FinTransactAPI.Controllers
             {
                 productCache = await _context.Products.FindAsync(id);
             }
-
-            _logger.LogInformation("Someone try to get information of " + productCache.ProductName + "(" + productCache.ProductDescription + ");");
-
+            _logger.LogInformation("Someone try to get the infromation of product : " + productCache?.ProductName + "(" + productCache?.ProductDescription + ")");
 
             return productCache;
         }
@@ -71,15 +71,12 @@ namespace FinTransactAPI.Controllers
         [Route("CreateProduct")]
         public async Task<ActionResult<Product>> POST(Product product)
         {
-
             _context.Products.Add(product);
 
             await _context.SaveChangesAsync();
 
             _cacheService.RemoveData("Product");
-
-            _logger.LogInformation("Someone just create a Product!");
-
+            _logger.LogInformation("Someone just try to save the infromation of product : " + product.ProductName + "(" + product.ProductDescription + ")");
 
             return CreatedAtAction(nameof(Get), new { id = product.ProductId }, product);
         }
@@ -88,8 +85,7 @@ namespace FinTransactAPI.Controllers
         [Route("DeleteProduct")]
         public async Task<ActionResult<IEnumerable<Product>>> Delete(int id)
         {
-            var productcache = _cacheService.GetData<List<Product>>("Product");
-            var product = productcache.Find(x=>x.ProductId == id);
+            var product = await _context.Products.FindAsync(id);
             if (product == null)
             {
                 return NotFound();
@@ -99,9 +95,7 @@ namespace FinTransactAPI.Controllers
             _cacheService.RemoveData("Product");
 
             await _context.SaveChangesAsync();
-
-            _logger.LogInformation("Someone try to get information of " + product.ProductName);
-
+            _logger.LogInformation("Someone just remove the infromation of product : " + product.ProductName + "(" + product.ProductDescription + ")");
 
             return await _context.Products.ToListAsync();
         }
@@ -130,6 +124,8 @@ namespace FinTransactAPI.Controllers
             _cacheService.RemoveData("Product");
 
             await _context.SaveChangesAsync();
+            _logger.LogInformation("Someone just update the infromation of product : " + product.ProductName + "(" + product.ProductDescription + ")");
+
             return await _context.Products.ToListAsync();
         }
     }
