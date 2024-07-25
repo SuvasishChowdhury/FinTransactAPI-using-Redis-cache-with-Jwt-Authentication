@@ -35,6 +35,17 @@ namespace FinTransactAPI.Controllers
                 return BadRequest("Invalid user request!!!");
             }
             loginCache = _cacheService.GetData<List<Login>>("Login");
+            if (loginCache == null)
+            {
+                var login = _context.Logins.ToList();
+                if(login != null)
+                {
+                    loginCache = login;
+                    var expiryTime = DateTimeOffset.Now.AddMinutes(10);
+
+                    _cacheService.SetData("Login", loginCache, expiryTime);
+                }
+            }
             bool hasUser = loginCache.Where(s=>s.UserName == user.UserName && s.Password == user.Password).Any();
             if (hasUser)
             {

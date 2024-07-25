@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj": {}
+    "D:\\Other Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj": {}
   },
   "projects": {
-    "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj": {
+    "D:\\Other Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj",
+        "projectUniqueName": "D:\\Other Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj",
         "projectName": "FinTransactAPI",
-        "projectPath": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj",
-        "packagesPath": "C:\\Users\\bono\\.nuget\\packages\\",
-        "outputPath": "E:\\Interview Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\obj\\",
+        "projectPath": "D:\\Other Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\FinTransactAPI.csproj",
+        "packagesPath": "C:\\Users\\suvas\\.nuget\\packages\\",
+        "outputPath": "D:\\Other Project\\FinTransactAPI-using-Redis-cache-with-Jwt-Authentication\\FinTransactAPI\\FinTransactAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bono\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,11 +7,6 @@ using Serilog;
 using System.Text;
 using ConfigurationManager = FinTransactAPI.ConfigurationManager;
 
-//Log.Logger = new LoggerConfiguration()
-//    .WriteTo.Console()
-//    .WriteTo.File("log.txt",
-//        rollingInterval: RollingInterval.Day)
-//    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
